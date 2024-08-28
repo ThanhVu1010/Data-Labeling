@@ -12,6 +12,9 @@ Labeling Based on Similarity: Uses cosine similarity to label text based on its 
 Physical Property Extraction: Extracts specific physical properties (like thickness, width, etc.) using regular expressions.
 Save Labeled Data: Saves the processed and labeled data back to Excel files.
 Prerequisites
+
+pip install pandas openpyxl gensim scikit-learn numpy
+
 Ensure you have Python 3.x installed, along with the following packages:
 
 bash
@@ -22,6 +25,8 @@ Place Excel Files: Store the input Excel files in the paths specified in the scr
 Configure Keywords and Columns: Update the keywords_dict in the script to match the correct sheet names and column names in your Excel files.
 How to Run
 Train the Word2Vec Model and Process Data:
+
+python Label_Word2Vec.py
 
 Run the script from the command line or any Python IDE:
 
