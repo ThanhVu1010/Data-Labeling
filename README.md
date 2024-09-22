@@ -31,7 +31,6 @@ python Label_Word2Vec.py
 Run the script from the command line or any Python IDE:
 
 bash
-Sao chép mã
 python your_script_name.py
 The script will:
 
